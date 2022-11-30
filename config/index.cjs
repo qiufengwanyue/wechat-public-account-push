@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '56935edb7fc59ce165f1b5514ac69bf9',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '陕西',
+  CITY: '西安',
 
   USERS: [
     {
@@ -23,17 +23,17 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ofqts5rwV5UkkG6G8b9LJQBaoKRk',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'eno-WvBApnFg72kt_1d1FwVdi72DkXCr5yjYQrwPVCs',
+      useTemplateId: 'n0sOtxOc4hCeDgxkLtyQDWIQoxI_3qFMcn7ojkLe4Ds',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-30',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝', year: '2003', date: '10-06',
+          type: '*生日', name: '你宝宝', year: '2003', date: '10-30',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '宝宝', year: '2003', date: '10-30',
+          type: '生日', name: '小李', year: '2003', date: '07-22',
         },
         {
           type: '节日', name: '相识纪念日', year: '2021', date: '06-22',
@@ -43,8 +43,7 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-10-03' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2021-06-22' },
+        { keyword: 'begin_day', date: '2021-06-22' },
       ],
     },
   ],
